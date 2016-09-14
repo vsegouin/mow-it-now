@@ -1,0 +1,6 @@
+<?import javafx.scene.control.TabPane?>
+<TabPane xmlns:fx="http://javafx.com/fxml/1"
+         fx:controller="com.vsegouin.mowitnow.ui.gui.controllers.infos.TabMapController"
+         fx:id="tabMap"
+         tabClosingPolicy="UNAVAILABLE">
+</TabPane>

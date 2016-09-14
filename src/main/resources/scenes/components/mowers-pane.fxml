@@ -1,0 +1,11 @@
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TitledPane?>
+<TitledPane xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.vsegouin.mowitnow.ui.gui.controllers.infos.MowerListController"
+            text="%label-pane-title-mowers">
+    <content>
+        <ListView fx:id="mowersList" maxHeight="150.0" maxWidth="120.0">
+        </ListView>
+    </content>
+
+</TitledPane>

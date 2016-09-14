@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<MenuBar xmlns:fx="http://javafx.com/fxml/1"
+         fx:controller="com.vsegouin.mowitnow.ui.gui.controllers.menu.MenuBarController">
+    <menus>
+        <Menu mnemonicParsing="false" text="%label-menu-files">
+            <items>
+                <Menu mnemonicParsing="false" text="%label-menu-new">
+                    <items>
+                        <MenuItem fx:id="newProjectMenuItem" mnemonicParsing="false" text="%label-menu-project"
+                                  onAction="#createNewProject"/>
+                        <MenuItem fx:id="newMapMenuItem" mnemonicParsing="false" text="%label-menu-map"
+                                  onAction="#createNewMap"/>
+                    </items>
+                </Menu>
+                <MenuItem fx:id="loadFileMenuItem" mnemonicParsing="false" onAction="#loadFileAction"
+                          text="%label-menu-load-file"/>
+                <MenuItem fx:id="bulkAddProject" mnemonicParsing="false" onAction="#bulkAddAction"
+                          text="%label-menu-bulk-add-project"/>
+                <MenuItem fx:id="closeAppMenuItem" mnemonicParsing="false" onAction="#closeApplication"
+                          text="%label-menu-close"/>
+            </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="%label-menu-options">
+            <items>
+                <Menu mnemonicParsing="false" text="%label-menu-language">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="%label-french" onAction="#switchToFrench"/>
+                        <MenuItem mnemonicParsing="false" text="%label-english" onAction="#switchToEnglish"/>
+                    </items>
+                </Menu>
+            </items>
+        </Menu>
+    </menus>
+</MenuBar>

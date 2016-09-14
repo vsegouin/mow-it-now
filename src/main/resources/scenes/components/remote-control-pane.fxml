@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.BorderPane?>
+<TitledPane xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.vsegouin.mowitnow.ui.gui.controllers.remote.RemoteControlController"
+            text="%label-pane-title-remote-control" xmlns="http://javafx.com/javafx/8.0.60">
+    <content>
+        <BorderPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="150.0" maxWidth="100.0" prefHeight="95.0"
+                    prefWidth="104.0">
+            <left>
+                <Button fx:id="turnLeftButton" mnemonicParsing="false" onAction="#goLeftClicked" text="%label-left"
+                        BorderPane.alignment="CENTER"/>
+            </left>
+            <top>
+                <Button fx:id="goForwardButton" mnemonicParsing="false" onAction="#goForwardClicked"
+                        text="%label-forward" BorderPane.alignment="CENTER"/>
+            </top>
+            <right>
+                <Button fx:id="turnRightButton" mnemonicParsing="false" onAction="#goRightClicked" text="%label-right"
+                        BorderPane.alignment="CENTER"/>
+            </right>
+            <bottom>
+                <Button fx:id="goBackwardButton" mnemonicParsing="false" onAction="#goBackwardClicked"
+                        text="%label-backward" BorderPane.alignment="CENTER"/>
+            </bottom>
+        </BorderPane>
+    </content>
+</TitledPane>

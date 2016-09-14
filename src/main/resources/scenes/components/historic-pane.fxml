@@ -1,0 +1,10 @@
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TitledPane?>
+<TitledPane xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.vsegouin.mowitnow.ui.gui.controllers.infos.HistoricPaneController"
+            text="%label-pane-title-historic">
+    <content>
+        <ListView fx:id="list" maxHeight="150.0" maxWidth="120.0">
+        </ListView>
+    </content>
+</TitledPane>
