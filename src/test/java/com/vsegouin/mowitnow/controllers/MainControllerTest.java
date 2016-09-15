@@ -49,7 +49,7 @@ public class MainControllerTest {
     @Test
     public void testExecutesCommands() throws Exception {
         FileControl fileControl = InjectorUtil.getInjector().getInstance(FileControl.class);
-        URL url = Thread.currentThread().getContextClassLoader().getResource("instructionsComplete.txt");
+        URL url = Thread.currentThread().getContextClassLoader().getResource("instructions.txt");
         File file = new File(url.getPath());
         List<String> commands = fileControl.readFile(file.getAbsolutePath());
         MapArea map = mainController.executeFileCommands(commands);
