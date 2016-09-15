@@ -1,0 +1,9 @@
+com.vsegouin.mowitnow.controllers
+com.vsegouin.mowitnow.mower.core
+com.vsegouin.mowitnow.mower.core.detection
+com.vsegouin.mowitnow.mower.core.map
+com.vsegouin.mowitnow.mower.core.movements
+com.vsegouin.mowitnow.services.file
+com.vsegouin.mowitnow.ui.gui.controllers
+com.vsegouin.mowitnow.ui.gui.controllers.actions
+com.vsegouin.mowitnow.ui.gui.controllers.helper
