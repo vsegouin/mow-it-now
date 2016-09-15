@@ -170,9 +170,9 @@ public class FileControl implements FileControlInterface {
     @Override
     public boolean checkFileIntegrity(final List<String> lines) throws MowerInstructionFileException {
         if (lines.size() < MINIMAL_FILE_SIZE) {
-            throw new MowerInstructionFileException("The file must at least contains the map size and the first mower data [initial position, list of commands]");
+            throw new MowerInstructionFileException(languageManager.getString("file-is-incomplete"));
         } else if ((lines.size() - 1) % 2 != 0) {
-            throw new MowerInstructionFileException("One of the mower's data is missing");
+            throw new MowerInstructionFileException(languageManager.getString("file-mower-data-is-missing"));
         }
         checkMapDataAreCorrect(lines.get(0));
         int[] mapSize = {Integer.parseInt(lines.get(0).split(" ")[0]), Integer.parseInt(lines.get(0).split(" ")[1])};
@@ -196,10 +196,10 @@ public class FileControl implements FileControlInterface {
     private void checkMapDataAreCorrect(final String mapLine) throws MowerInstructionFileException {
         String[] t = mapLine.split(" ");
         if (t.length < 2) {
-            throw new MowerInstructionFileException("The map instructions aren't complete");
+            throw new MowerInstructionFileException(languageManager.getString("file-map-data-is-missing"));
         }
         if (!t[0].matches("\\d+") || !t[1].matches("\\d+")) {
-            throw new MowerInstructionFileException("One of the map parameter is not an integer");
+            throw new MowerInstructionFileException(languageManager.getString("file-map-data-not-integer"));
         }
     }
 }
