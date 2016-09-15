@@ -11,8 +11,11 @@ Le projet propose deux interfaces :
 Vous pouvez télécharger le .jar exécutable ici :
 
 &nbsp;&nbsp;&nbsp;&nbsp;- Version interface graphique : http://vsegouin.github.io/mow-it-now/bin/mow-it-now-GUI.jar
+
 &nbsp;&nbsp;&nbsp;&nbsp;- Version ligne de commande : http://vsegouin.github.io/mow-it-now/bin/mow-it-now-CLI.jar
+
 &nbsp;&nbsp;&nbsp;&nbsp;- Version où le choix est proposé : http://vsegouin.github.io/mow-it-now/bin/mow-it-now-BOTH.jar
+
 
 Pour éxecuter le programme un simple double clique sur la version GUI suffit a afficher le programme
 Pour les deux autres versions il est nécéssaire d'écrire dans une fenetre de commande :
