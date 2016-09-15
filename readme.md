@@ -1,5 +1,5 @@
 # Mow it now
-Ce projet correspond est une réponse à un exercice technique demandé par Xebia.
+Ce projet est une réponse à un exercice technique demandé par Xebia.
 
 ## Tester le projet
 
