@@ -16,7 +16,6 @@ Vous pouvez télécharger le .jar exécutable ici :
 
 &nbsp;&nbsp;&nbsp;&nbsp;- Version où le choix est proposé : http://vsegouin.github.io/mow-it-now/bin/mow-it-now-BOTH.jar
 
-
 Pour éxecuter le programme un simple double clique sur la version GUI suffit a afficher le programme
 Pour les deux autres versions il est nécéssaire d'écrire dans une fenetre de commande :
 > java -jar chemin-vers-le-fichier.jar
@@ -69,6 +68,7 @@ Le projet a été pensé pour être le plus simple possible a utiliser et à ré
 
 
 Un site auto généré par maven a été réalisé et est accessible à cette adresse : http://vsegouin.github.io/mow-it-now/
+
 Plugins utilisé : 
 - maven-javadoc-plugin : Afin de générer une javadoc complète.
 - maven-checkstyle-plugin : Afin d'avoir un rapport checkstyle (certaines règles ont été retirés)
