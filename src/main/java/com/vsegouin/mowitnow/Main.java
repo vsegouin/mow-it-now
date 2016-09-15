@@ -68,7 +68,7 @@ public class Main {
                 MainApp.main();
                 break;
             case "2":
-                MainCLI.main();
+                MainCLI.main(new String[]{""});
                 break;
             case "3":
                 changeLanguage();

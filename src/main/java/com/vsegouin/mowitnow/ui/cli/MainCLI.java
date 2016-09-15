@@ -42,7 +42,7 @@ public class MainCLI {
     /**
      * the main entry point which will load the program.
      */
-    public static void main() {
+    public static void main(final String[] args) {
         Injector injector = InjectorUtil.getInjector();
         MainCLI app = injector.getInstance(MainCLI.class);
         app.startProgram();
