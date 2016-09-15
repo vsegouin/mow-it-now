@@ -4,8 +4,8 @@
 ## Tester le projet
 
 Le projet propose deux interfaces :
-&nbsp;&nbsp;&nbsp;&nbsp;- Une interface graphique réalisé via javaFX.
-&nbsp;&nbsp;&nbsp;&nbsp;- Une interface en ligne de commande standard.
+ - Une interface graphique réalisé via javaFX.
+ - Une interface en ligne de commande standard.
     
    
 Vous pouvez télécharger le .jar exécutable ici :
