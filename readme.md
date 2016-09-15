@@ -69,7 +69,6 @@ Un site généré par Maven a été réalisé et est accessible à cette adresse
 Plugins utilisés : 
 - Maven-javadoc-plugin : Afin de générer une javadoc complète.
 - Maven-checkstyle-plugin : Afin d'avoir un rapport checkstyle (certaines règles ont été retirés).
-- Findbugs-maven-plugin : Génère un rapport findbugs.
 - Maven-surefire-plugin : Génère un rapport sur les tests unitaires.
 - Cobertura-maven-plugin : Afin d'avoir le rapport de couverture du code.
 - Maven-project-info-reports-plugin : Pour récupérer les informations globales du projet
