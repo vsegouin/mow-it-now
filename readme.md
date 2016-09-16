@@ -53,7 +53,7 @@ Le projet a été pensé pour être le plus léger et le plus simple possible à
   - Frameworks : Google Guice, JavaFX
   - Dépendances Maven supplémentaires : Shade
   - Test : TestNG
-  - Reporting : Clover
+  - Reporting : Maven site plugin avec surefire, checkstyle, cobertura et javadoc.
   - Qualité : Findbugs, Checkstyle, Sonarlint
   - Logiciel : Intellij, Gluon SceneBuilder
   
